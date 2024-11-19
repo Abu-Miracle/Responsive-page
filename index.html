@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          prefix: 'tw-',
+        }
+      </script>
+      
+</head>
+
+<body class="font-sans">
+    <header class="p-2">
+        <nav class="navbar navbar-expand-lg bg-body-white">            
+            <div class="container-fluid d-flex justify-content-between">
+                <div id="logo" class="d-flex align-items-center w-25 h-25">
+                    <img src="svg/wifi.svg" class="me-2" alt="Wi-Fi logo" style="width: 28px; height: 28px;">
+                    <p class="mb-0 fw-bold text-orange-900" style="font-size: 1.125rem;">WireShark</p>
+                </div>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2 hover-text-orange">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                  </li>
+                  <button class="btn btn-outline-success">Sign Up</button>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="tw-bg-gradient-to-b tw-from-orange-950 tw-to-orange-700 tw-flex tw-py-20 tw-px-10 tw-md:px-40 tw-mx-auto tw-justify-center tw-items-center tw-w-full">
+        <div class="tw-text-center tw-my-34 tw-py-12 tw-justify-center">
+            <img src="svg/wifi2.svg" class="tw-mx-auto tw-mb-8 tw-hover:scale-110">
+            <h1 class="tw-md:text-5xl tw-font-bold tw-text-white tw-mb-10 tw-text-3xl">Empowering Your Network, One Connection at a Time</h1>
+            <p class="tw-text-xl tw-text-white">WireShark delivers state-of-the-art network monitoring, analysis, and optimization tools to keep your systems running smoothly and securely. Stay ahead of the curve with real-time insights and expert support. With cutting-edge technology and expert solutions, we help businesses optimize their networks for performance and security</p>
+            <button href="#" class="tw-rounded-3xl tw-text-xl tw-font-semibold tw-border-2 tw-border-white tw-hover:bg-white tw-hover:text-orange-900 tw-text-white tw-py-2 tw-px-5 tw-mt-10">GET STARTED</button>
+        </div>
+    </section>
+
+   <section id="features" class="tw-bg-white tw-py-14">
+        <h1 class="tw-text-center tw-text-4xl tw-font-bold tw-text-orange-900 tw-mb-5">Features</h1>
+        <div class="tw-grid tw-grid-cols-1 tw-md:grid-cols-2 tw-lg:grid-cols-4 tw-gap-7 tw-px-14 tw-mt-10 tw-mb-10">
+            <div class="tw-bg-orange-100 tw-px-5 tw-py-7 tw-rounded-xl">
+                <img src="svg/innovative.svg" class="tw-mb-3 tw-hover:scale-110">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4 ">Innovative Network Solutions</h1>
+                <p>We specialize in providing cutting-edge network solutions designed to enhance your connectivity and streamline communication. Our team is dedicated to developing systems that keep your network secure, efficient, and scalable</p>
+            </div>
+            <div class="tw-bg-slate-200 tw-px-5 tw-py-7 tw-rounded-xl">
+                <img src="svg/expert.svg" class="tw-mb-3 tw-hover:scale-110">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4">Expertise You Can Trust</h1>
+                <p>With years of experience in the industry, WireShark is committed to delivering unparalleled service and expertise. Our professionals are skilled in network monitoring, optimization, and security, ensuring your systems operate at their best</p>
+            </div>
+            <div class="tw-bg-orange-100 tw-px-5 tw-py-7 tw-rounded-xl">
+                <img src="svg/customer.svg" class="tw-mb-3 tw-hover:scale-110">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4">Customer-Centric Approach</h1>
+                <p>At WireShark, we put our clients first. We work closely with businesses to understand their needs, providing tailored solutions that align with their goals. Your success is our priority, and we're here to support you every step of the way</p>
+            </div>
+            <div class="tw-bg-slate-200 tw-px-5 tw-py-7 tw-rounded-xl">
+                <img src="svg/advanced.svg" class="tw-mb-3 tw-hover:scale-110">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4">Advanced Real-Time Insights</h1>
+                <p>Stay ahead of the curve with our advanced monitoring tools and real-time insights. We provide detailed analytics that help you optimize network performance and troubleshoot issues before they affect your operations</p>
+            </div>
+        </div>
+   </section>
+
+   <section id="testimonial" class="bg-orange justify-content-center p-5">
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="tw-text-center tw-py-5 tw-font-bold tw-text-orange-900 tw-text-4xl">Testimonials</h1>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-item text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="svg/contact.svg" class="rounded-circle mb-3" alt="Testimonial 1">
+                </div>
+              <h5 class="tw-text-2xl tw-font-bold tw-text-orange-900">John Doe</h5>
+              <p class="text-muted">CEO at TechCorp</p>
+              <p class="tw-text-lg">"WireShark's innovative solutions have transformed our network. Their services have been reliable, efficient, and secure."</p>
+            </div>
+          </div>
+      
+          <div class="carousel-item">
+            <div class="testimonial-item text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="svg/contact.svg" class="rounded-circle mb-3" alt="Testimonial 1">
+                </div>
+              <h5 class="tw-text-2xl tw-font-bold tw-text-orange-900">Jane Smith</h5>
+              <p class="text-muted">CTO at InnovateX</p>
+              <p class="tw-text-lg">"Their customer-centric approach has been a game changer. We are now able to achieve higher network uptime and performance."</p>
+            </div>
+          </div>
+      
+          <div class="carousel-item">
+            <div class="testimonial-item text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="svg/contact.svg" class="rounded-circle mb-3" alt="Testimonial 1">
+                </div>
+              <h5 class="tw-text-2xl tw-font-bold tw-text-orange-900">Michael Lee</h5>
+              <p class="text-muted">IT Manager at NextGen Networks</p>
+              <p class="tw-text-lg">"WireShark's real-time insights and monitoring tools have allowed us to stay ahead of network issues before they escalate."</p>
+            </div>
+          </div>
+        </div>
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>          
+    </section>
+
+   <footer id="contact" class="tw-py-10 tw-bg-orange-900">
+        <h1 class="tw-text-center tw-text-4xl tw-font-bold tw-text-white tw-mt-10 tw-mb-10">Contact</h1>
+        <div class="tw-grid tw-grid-cols-1 tw-md:grid-cols-2 tw-lg:grid-cols-4 tw-gap-5 tw-px-20 tw-my-5 tw-align-top">
+            <div class="tw-px-5 tw-py-3 tw-rounded-xl tw-flex tw-flex-col tw-justify-center tw-items-center tw-text-center">
+                <img src="svg/location.svg" class="tw-w-40 tw-h-40">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4 tw-text-white">Location</h1>
+                <p class="tw-text-white ">
+                    123 Maple Lane Springfield, IL 62704 USA  
+                </p>
+            </div>
+            <div class="tw-px-5 tw-py-3 tw-rounded-xl tw-flex tw-flex-col tw-justify-center tw-items-center tw-text-center">
+                <img src="svg/phone.svg" class="tw-w-20 tw-h-20 tw-mb-4">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4 tw-text-white">Phone</h1>
+                <p class="tw-text-white ">+234 908 798 0748 <br>+234 908 798 0749 <br>+234 908 798 0750 
+                </p>
+            </div>
+            <div class="tw-px-5 tw-py-3 tw-rounded-xl tw-flex tw-flex-col tw-justify-center tw-items-center tw-text-center">
+                <img src="svg/instagram.svg" class="tw-w-20 tw-h-20 tw-mb-4">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4 tw-text-white">Instagram</h1>
+                <p class="tw-text-white">@wireshark_io <br>@wireshark_net 
+                </p>
+            </div>
+            <div class="tw-px-5 tw-py-3 tw-rounded-xl tw-flex tw-flex-col tw-justify-center tw-items-center tw-text-center">
+                <img src="svg/email.svg" class="tw-w-20 tw-h-20 tw-mb-4">
+                <h1 class="tw-text-xl tw-font-bold tw-mb-4 tw-text-white">Email</h1>
+                <p class="tw-text-white ">wiresharknetwork@gmail.com <br>wiresharknet9087@gmail.com 
+                </p>
+            </div>
+        </div>  
+   </footer>
+
+   <section class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 WireShark Solutions. All rights reserved.</p>
+        <p>Designed with passion by <a href="#" class="text-white">Globe </a></p>
+    </div>
+ </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <style>
+    .btn-outline-success {
+        border-color: #c2410c;
+        color: #c2410c;
+    }
+    .btn-outline-success:hover {
+        background-color: #c2410c;
+        color: #ffffff;
+        border-color: #c2410c;
+    }
+    .hover-text-orange:hover {
+        color: #c2410c;
+    }
+    .bg-orange {
+        background-color: #FDBA74;
+    }
+  </style>
+</body>
+</html>
